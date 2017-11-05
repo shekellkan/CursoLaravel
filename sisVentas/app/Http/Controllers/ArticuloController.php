@@ -3,9 +3,11 @@
 namespace sisVentas\Http\Controllers;
 
 use Illuminate\Http\Request;
+use sisVentas\Http\Requests;
 use sisVentas\Http\Controllers\Controller;
-use Illuminate\Http\Support\Facedes\Redirect;
-use Illuninate\Http\Support\Facedes\Input;
+
+use Illuminate\Support\Facades\Redirect;
+use Illuninate\Support\Facades\Input;
 use sisVentas\Http\Request\ArticuloFormRequest;
 use sisVentas\Articulo;
 use DB;

@@ -3,8 +3,9 @@
 namespace sisVentas\Http\Controllers;
 
 use Illuminate\Http\Request;
-
 use sisVentas\Http\Requests;
+use sisVentas\Http\Controllers\Controller;
+
 use sisVentas\Categoria;
 use Illuminate\Support\Facades\Redirect;
 use sisVentas\Http\Requests\CategoriaFormRequest;
